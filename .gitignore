@@ -1,0 +1,33 @@
+# Node modules (for both frontend and backend)
+node_modules/
+
+# Build directory (React build folder)
+frontend/build/
+
+# React environment variables (in frontend)
+frontend/.env
+
+# Backend environment variables
+backend/.env
+
+# Logs
+*.log
+
+# Mac system files
+.DS_Store
+
+# IDE and editor config files
+.vscode/
+.idea/
+
+# NPM Debug files
+npm-debug.log*
+
+# Dependency directory for the backend (in case it’s added in backend directory)
+backend/node_modules/
+
+# Cover files (if using any testing or code coverage tool)
+coverage/
+
+# Ignore any additional files (e.g., if you store temporary files)
+*.swp
